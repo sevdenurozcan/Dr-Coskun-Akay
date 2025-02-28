@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.header-main { 
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    font-size: 2rem;
+    padding-left: 1.5rem;
+}
+
+.logolar {
+    padding: 0 0.25rem;
+    background: rgb(149, 186, 204);
+    margin: 0 1px ;
+}
+
+.icon {
+    color: white;
+}
+
+.icon:hover {
+    opacity: 0;
+}
+
+.icon:visited {
+    color: white;
+}
+
+.doktor {
+    font-family: "MonteCarlo", cursive;
+    font-size: 3rem;
+    margin: 1.5rem 2rem;
+    font-weight: 800;
+}
+
+.doktor-main {
+    background:rgb(255, 255, 255);
+    color:  rgb(17, 27, 81);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tel-no-container {
+    display:flex;
+    flex-direction: row;
+}
+
+.tel-no {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.tel-icon {
+    font-size: 2rem;
+    padding:0;
+    margin: 0 1rem 0 0;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+}

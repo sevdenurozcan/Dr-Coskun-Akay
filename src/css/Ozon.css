@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.ozon-everything {
+    margin: 0;
+    padding: 0 0 1rem 0;
+    border-top: 1px solid white;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-family: "Playfair Display", serif;
+}
+
+.ozon-sorular {
+    font-size: 1.25rem;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2rem;
+}
+
+.ozon-header {
+    font-size: 2rem;
+    font-weight: 600;
+}

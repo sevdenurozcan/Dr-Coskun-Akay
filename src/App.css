@@ -1,0 +1,11 @@
+.everything {
+    margin:0;
+    display: flex;
+    justify-content: center;
+}
+.container-main{
+    width: 90%;
+    background: rgb(149, 220, 218);
+    margin: 0;
+}
+
