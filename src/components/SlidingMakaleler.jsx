@@ -11,6 +11,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
+import img1 from "../images/glutatyon.jpg";
+
 function SlidingMakaleler() {
     return (
 
@@ -29,7 +31,7 @@ function SlidingMakaleler() {
                     onSlideChange={() => console.log('slide change')}
                 >
                     <SwiperSlide className='mySlides'>
-                        <img src="../images/glutatyon.jpg" alt="Glutatyon tedavisi" />
+                        <img src={img1} alt="Glutatyon tedavisi" />
                         <h4>Glutatyon Tedavisi</h4>
                         <p>Glutatyon vücudumuzdaki hücrelerde yapılan ve detoks safhalarının iki fazında da rol oynayan en güçlü antioksidanlardan birisidir.</p>
                     </SwiperSlide>
