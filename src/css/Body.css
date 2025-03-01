@@ -66,21 +66,13 @@
    height: 100%;
    max-width: 100%;
    opacity: 0;
-   color: rgb(17, 27, 81);
-   transform: rotateX(180deg); 
+   color: rgb(17, 27, 81); 
 }
 
 .ozon-img:hover {
-    background-color:rgb(149, 220, 218);
+    background-color:rgba(149, 220, 218, 0.55);
     transition-property: background-color opacity;
     transition-duration: 0.75s;
-    transition-delay: 0.05s;
     opacity: 1;
-}
-
-.animate:hover {
-    transform: rotateX(180deg);
-    transition-property: transform;
-    transition-duration: 1.25s;    
 }
 
