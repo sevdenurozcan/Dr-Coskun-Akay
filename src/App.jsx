@@ -2,6 +2,8 @@ import './App.css'
 import Header from "./components/Header"
 import Body from "./components/Body"
 import Ozon from "./components/Ozon"
+import SlidingMakaleler from './components/SlidingMakaleler'
+
 
 function App() {
 
@@ -16,6 +18,9 @@ function App() {
         </div>
         <div className='app-body'>
           <Body />
+        </div>
+        <div className='app-makaleler'>
+          <SlidingMakaleler />
         </div>
 
       </div>
