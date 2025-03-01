@@ -21,7 +21,7 @@ function SlidingMakaleler() {
                 <Swiper
                     modules={[Navigation, Pagination, Scrollbar, A11y]}
                     spaceBetween={50}
-                    slidesPerView={3}
+                    slidesPerView={2}
                     navigation={true}  // Fix navigation
                     pagination={{ clickable: true, dynamicBullets: true }}
                     scrollbar={{ draggable: true }}  // Allow scrolling
@@ -29,7 +29,7 @@ function SlidingMakaleler() {
                     onSlideChange={() => console.log('slide change')}
                 >
                     <SwiperSlide className='mySlides'>
-                        <img src="../src/images/glutatyon.jpg" alt="Glutatyon tedavisi" />
+                        <img src="../images/glutatyon.jpg" alt="Glutatyon tedavisi" />
                         <h4>Glutatyon Tedavisi</h4>
                         <p>Glutatyon vücudumuzdaki hücrelerde yapılan ve detoks safhalarının iki fazında da rol oynayan en güçlü antioksidanlardan birisidir.</p>
                     </SwiperSlide>
