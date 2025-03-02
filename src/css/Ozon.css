@@ -3,12 +3,12 @@
 .ozon-everything {
     margin: 0;
     padding: 0 0 1rem 0;
-    border-top: 1px solid white;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     text-family: "Playfair Display", serif;
     color:  rgb(17, 27, 81);
+    background-color: white;
 }
 
 .ozon-sorular {

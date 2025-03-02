@@ -7,6 +7,7 @@
   justify-content: space-evenly;
   padding: 2rem;
   color:  rgb(17, 27, 81);
+  background-color: white;
 }
 
 .imgg {
@@ -15,9 +16,14 @@
 
 h2 {
   color:  rgb(17, 27, 81);
-  margin: 3rem;
   font-size: 2rem;
   text-align: center; 
+}
+
+.header-makale {
+  background-color: white;
+  margin: 0;
+  padding: 2rem; 
 }
 
 .mySlides:nth-child(1) {

@@ -26,7 +26,9 @@ function SlidingMakaleler() {
     return (
 
         <div>
-            <h2>MAKALELERİMİZ</h2>
+            <div className='header-makale'>
+                <h2>MAKALELERİMİZ</h2>
+            </div>
             <div className='slideshow-con'>
 
                 <Swiper
