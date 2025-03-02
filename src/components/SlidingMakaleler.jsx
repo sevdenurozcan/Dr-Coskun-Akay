@@ -22,7 +22,6 @@ import img6 from "../images/diyabet.jpg";
 
 function SlidingMakaleler() {
 
-    const screenWidth = document.getElementById("demo").innerHTML
 
     return (
 
@@ -34,9 +33,9 @@ function SlidingMakaleler() {
                     modules={[Navigation, Pagination, Scrollbar, A11y]}
                     spaceBetween={0}
                     slidesPerView={2}
-                    navigation={true}  // Fix navigation
+                    navigation={true}
                     pagination={{ clickable: true, dynamicBullets: true }}
-                    scrollbar={{ draggable: true }}  // Allow scrolling
+                    scrollbar={{ draggable: true }}
                     onSwiper={(swiper) => console.log(swiper)}
                     onSlideChange={() => console.log('slide change')}
                 >
