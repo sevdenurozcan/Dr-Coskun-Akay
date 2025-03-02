@@ -22,3 +22,26 @@
     font-size: 2rem;
     font-weight: 600;
 }
+
+.pag:hover {
+    color: rgb(2, 20, 156);
+}
+
+
+@media screen and (max-width: 640px) {
+    .ozon-header {
+        font-size: 1rem; 
+        width:100%;
+    }
+    
+    .ozon-sorular {
+        font-size: 0.75rem;
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start; 
+        gap: 0px;
+        margin:0;
+        padding: 0.5rem;
+    }
+}

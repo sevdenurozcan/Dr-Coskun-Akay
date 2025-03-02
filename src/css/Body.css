@@ -85,8 +85,28 @@
 .basliklar {
     height: 20%;
     margin: 0;
-
     background-color:rgba(149, 220, 218, 0.55);
     border-radius: 3rem 3rem 0 0;
 
+}
+
+@media screen and (max-width: 640px) {
+    
+    .body-container {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .animate {
+        width: 90%;
+    }
+
+    .pa {
+        font-size: 1rem;
+    }
+    
+    .ozon-img {
+        background-color: rgba(149, 220, 218, 0.55);
+        opacity: 1;
+    }
 }

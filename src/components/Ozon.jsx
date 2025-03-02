@@ -10,22 +10,22 @@ function Ozon() {
             </div>
 
             <div className='ozon-sorular'>
-                <section>
-                    <p><IoArrowRedoSharp />   Ozon Nedir?</p>
-                    <p><IoArrowRedoSharp />   Ozon Güvenilir Bir Tedavi Yöntemi midir?</p>
-                    <p><IoArrowRedoSharp />   Romatizma Ve Ozon Tedavisi</p>
-                    <p><IoArrowRedoSharp />   Kanser ve Ozon Tedavisi</p>
+                <section className='section' >
+                    <p className='pag'><IoArrowRedoSharp />   Ozon Nedir?</p>
+                    <p className='pag'><IoArrowRedoSharp />   Ozon Güvenilir Bir Tedavi Yöntemi midir?</p>
+                    <p className='pag'><IoArrowRedoSharp />   Romatizma Ve Ozon Tedavisi</p>
+                    <p className='pag'><IoArrowRedoSharp />   Kanser ve Ozon Tedavisi</p>
                 </section>
-                <section>
-                    <p><IoArrowRedoSharp />   Diyabette Ozon Tedavisi</p>
-                    <p><IoArrowRedoSharp />   Kronik Yorgunluk, Fibromiyalji ve Ozon Tedavisi</p>
-                    <p><IoArrowRedoSharp />   Ozonlu PRP</p>
-                    <p><IoArrowRedoSharp />   Multiple Skleroz ve Ozon Tedavisi</p>
+                <section className='section' >
+                    <p className='pag'><IoArrowRedoSharp />   Diyabette Ozon Tedavisi</p>
+                    <p className='pag'><IoArrowRedoSharp />   Kronik Yorgunluk, Fibromiyalji ve Ozon Tedavisi</p>
+                    <p className='pag'><IoArrowRedoSharp />   Ozonlu PRP</p>
+                    <p className='pag'><IoArrowRedoSharp />   Multiple Skleroz ve Ozon Tedavisi</p>
                 </section>
-                <section>
-                    <p><IoArrowRedoSharp />   Ozon Tedavisi ve Zayıflama</p>
-                    <p><IoArrowRedoSharp />   Ozon Tedavisinde Ozonlanmış Yağlar</p>
-                    <p><IoArrowRedoSharp />   Ozon Yağı Alırken Nelere Dikkat Edilmelidir?</p>
+                <section className='section' >
+                    <p className='pag'><IoArrowRedoSharp />   Ozon Tedavisi ve Zayıflama</p>
+                    <p className='pag'><IoArrowRedoSharp />   Ozon Tedavisinde Ozonlanmış Yağlar</p>
+                    <p className='pag'><IoArrowRedoSharp />   Ozon Yağı Alırken Nelere Dikkat Edilmelidir?</p>
                 </section>
             </div>
         </div>

@@ -10,20 +10,23 @@
 
 .nav {
     display: flex;
-    flex-direction: row;
-    height: 5vh;
+    flex-flow: row nowrap;
+    height: 100%;
     font-size: 2rem;
     padding-left: 1.5rem;
 }
 
 .logolar {
-    padding: 0 0.25rem;
+    padding: 0.1rem;
     background: rgb(149, 186, 204);
     margin: 0 1px ;
 }
 
 .icon {
     color: white;
+    display: grid;
+    place-content: center;
+    text-align: center;
 }
 
 .icon:hover {
@@ -39,6 +42,7 @@
     font-size: 3rem;
     margin: 1.5rem 2rem;
     font-weight: 800;
+
 }
 
 .doktor-main {
@@ -47,6 +51,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .tel-no-container {
@@ -68,8 +73,44 @@
 
 .navbar {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-evenly;
     font-family: "Playfair Display", serif;
     font-weight: 600;
+    gap: 30px;
+}
+
+
+@media screen and (max-width: 640px) {
+    .nav {
+        display: flex;
+        flex-flow: row nowrap;
+        height: 100%;
+        font-size: 1rem;
+        padding-left: 1rem;
+    }
+
+    .doktor {
+        font-family: "MonteCarlo", cursive;
+        font-size: 1.2rem;
+        margin: 1rem 1rem;
+        font-weight: 800;
+    }
+
+    .iletisim {
+        font-size: 0.75rem;
+    }
+
+    .tel-no, .tel-icon {
+        font-size: 1rem;
+    }
+
+    .navbar {
+        gap:3px;
+    }
+
+    .navbar-p {
+        font-size: 0.5rem;
+        margin: 0.15rem;
+    }
 }

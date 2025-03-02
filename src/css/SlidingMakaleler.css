@@ -9,7 +9,7 @@
   color:  rgb(17, 27, 81);
 }
 
-img {
+.imgg {
   border-radius: 3rem;
 }
 
@@ -18,4 +18,22 @@ h2 {
   margin: 3rem;
   font-size: 2rem;
   text-align: center; 
+}
+
+.mySlides:nth-child(1) {
+  margin-left: 5rem;
+}
+
+@media screen and (max-width: 640px) {
+  .imgg {
+    width: 85%;
+    border-radius: 1rem;
+  }
+  .mySlides:nth-child(1) {
+    margin-left:0
+  }
+  .mySlides {
+    font-size:0.75rem;
+  }
+  
 }

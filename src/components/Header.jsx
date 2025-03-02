@@ -47,12 +47,12 @@ function Header() {
 
             <div>
                 <nav className="navbar">
-                    <p>ANASAYFA</p>
-                    <p>HAKKIMDA</p>
-                    <p>OZON</p>
-                    <p>MAKALELERİMİZ</p>
-                    <p>SIKÇA SORULAN SORULAR</p>
-                    <p>İLETİŞİM</p>
+                    <p className="navbar-p" >ANASAYFA</p>
+                    <p className="navbar-p">HAKKIMDA</p>
+                    <p className="navbar-p">OZON</p>
+                    <p className="navbar-p">MAKALELERİMİZ</p>
+                    <p className="navbar-p">SIKÇA SORULAN SORULAR</p>
+                    <p className="navbar-p">İLETİŞİM</p>
                 </nav>
             </div>
 
