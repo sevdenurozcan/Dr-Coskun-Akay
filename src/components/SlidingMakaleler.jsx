@@ -33,7 +33,7 @@ function SlidingMakaleler() {
                 <Swiper
                     modules={[Navigation, Pagination, Scrollbar, A11y]}
                     spaceBetween={0}
-                    slidesPerView={screenWidth < 768 ? 1 : 2}
+                    slidesPerView={2}
                     navigation={true}  // Fix navigation
                     pagination={{ clickable: true, dynamicBullets: true }}
                     scrollbar={{ draggable: true }}  // Allow scrolling
