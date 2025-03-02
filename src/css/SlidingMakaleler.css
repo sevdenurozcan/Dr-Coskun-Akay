@@ -25,15 +25,23 @@ h2 {
 }
 
 @media screen and (max-width: 640px) {
+  
+  h2 {
+    font-size: 1rem;
+  }
+
   .imgg {
     width: 85%;
     border-radius: 1rem;
   }
+  
   .mySlides:nth-child(1) {
     margin-left:0
   }
+  
   .mySlides {
     font-size:0.75rem;
   }
   
+
 }
