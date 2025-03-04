@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.slideshow-con {
+  font-family: "Playfair Display", serif;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  padding: 2rem;
+  color:  rgb(17, 27, 81);
+  background-color: white;
+  font-size: 1.2rem;
+}
+
+.imgg {
+  border-radius: 3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2 {
+  color:  rgb(17, 27, 81);
+  font-size: 2rem;
+  text-align: center; 
+}
+
+.header-makale {
+  background-color: white;
+  margin: 0;
+  padding: 2rem; 
+}
+
+.mySlides:nth-child(1) {
+  margin-left: 5rem;
+}
+
+.par {
+  padding-right: 6rem;
+}
+
+@media screen and (max-width: 640px) {
+  
+  h2 {
+    font-size: 1rem;
+  }
+
+  .imgg {
+    width: 85%;
+    border-radius: 1rem;
+  }
+  
+  .mySlides:nth-child(1) {
+    margin-left:0
+  }
+  
+  .mySlides {
+    font-size:0.75rem;
+  }
+  
+  .par {
+    padding-right: 3rem;
+  }
+  
+
+}

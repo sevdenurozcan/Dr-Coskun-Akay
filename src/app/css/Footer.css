@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+.footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    background-color: rgb(114, 199, 255);
+    font-family: "Playfair Display", serif;
+    color:  rgb(17, 27, 81);
+}
+
+.site-haritası {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.sayfa-liste, .iletisim-liste {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+
+
+.e-bulten {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 30%;
+    margin-bottom:0;
+    padding-bottom: 30px; 
+}
+
+.input-bulten {
+    color: rgb(17, 27, 81);
+    font-family: "Playfair Display", serif;
+    border: none;
+    border-bottom: 1px solid rgb(17, 27, 81);
+    background:  rgb(114, 199, 255);
+    height: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.input-bulten:focus {
+    outline: none;
+
+}
+
+.input-bulten::placeholder {
+    color: rgb(17, 27, 81);
+}
+
+.btn-kyt {
+    color: white;
+    background: rgb(46, 85, 110);
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Playfair Display", serif;
+}
+
+.btn-kyt:hover {
+    color: rgb(17, 27, 81);
+    background: white;
+}
+
+.btn-kyt:active {
+    color: rgb(46, 85, 110);
+    background: rgb(46, 85, 110);
+}
+
+.logolar-footer-main {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 5px;
+    margin-top: 15px;
+
+} 
+.logolar-footer {
+    background:  rgb(46, 85, 110);
+    width: 30px;
+    height: 30px;
+    display:grid;
+    place-content: center;
+    align-items: center;
+}
+
+.icon-f {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.icon-f:hover {
+color: rgb(46,85,110);
+}
+
+@media screen and (max-width: 640px) {
+    .footer {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        gap: 15px;
+    }
+    
+    .sayfa-liste {
+        font-size: 0.6rem; 
+    }
+
+    .sh-h4 {
+        font-size: 0.6rem;
+    }
+
+    .e-b-p {
+        font-size: 0.6rem;
+    }
+
+    .footer-iletisim {
+        font-size: 0.6rem;
+    }
+
+    .logolar-footer {
+        width: 20px;
+        height: 20px;
+    }
+
+    .icon-f {
+        color: white;
+        font-size: 1rem;
+    }
+
+    .input-bulten {
+        font-size: 0.6rem;
+        height: 15px;
+        margin: 2px;
+        width: 100%;
+    }
+
+    .btn-kyt {
+        width: 50px;
+        height: 20px;
+        font-size: 0.6rem;
+    }
+}

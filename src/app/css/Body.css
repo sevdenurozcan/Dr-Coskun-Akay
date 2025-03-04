@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.body-container {
+    background: rgb(255,255,255);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+}
+
+.animate {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img1 {
+    margin: 1rem 0.5rem 1rem 0;
+    width: 48%;
+    height: 45vh;
+    background-image: url("/images/ozon-sauna.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 80% center;
+    border-radius: 3rem;
+}
+
+.img2 {
+    margin: 1rem 0 1rem 0.5rem;
+    width: 48%;
+    height: 45vh;
+    background-image: url("/images/ozon-nedir.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 80% center;
+    border-radius: 3rem;
+}
+
+.img3 {
+    margin: 1rem 0.5rem 1rem 0;
+    width: 48%;
+    height: 45vh;
+    background-image: url("/images/ozon-tedavisi-ve-zayiflama.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 80% 50%;
+    border-radius: 3rem;
+}
+
+.img4 {
+    margin: 1rem 0 1rem 0.5rem; 
+    width: 48%;
+    height: 45vh;
+    background-image: url("/images/ozonlu-prp.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 80% 50%;
+    border-radius: 3rem;
+}
+
+.ozon-img {
+   background-color: rgba(17, 27, 81, 0.18);
+   margin: 0;
+   padding: 0 0.5rem;
+   text-align: center;
+   border-radius: 0 0 3rem 3rem;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   align-items: center;
+   height: 80%;
+   max-width: 100%;
+   opacity: 0;
+   color: rgb(17, 27, 81); 
+}
+
+.ozon-img:hover {
+    background-color:rgba(114, 199, 255, 0.55);
+    transition-property: background-color opacity;
+    transition-duration: 0.75s;
+    opacity: 1;
+}
+
+.pa {
+    margin:0;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom:0;
+}
+.basliklar {
+    height: 20%;
+    margin: 0;
+    background-color:rgba(114, 199, 255, 0.55);
+    border-radius: 3rem 3rem 0 0;
+
+}
+
+@media screen and (max-width: 640px) {
+    
+    .body-container {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+    .animate {
+        width: 45%;
+        background-position: 60% 50%;
+    }
+
+    .pa {
+        font-size: 0.75rem;
+    }
+    
+    .ozon-img {
+        background-color:rgba(114, 199, 255, 0.55);
+        opacity: 1;
+
+    }
+}
